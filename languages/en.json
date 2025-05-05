@@ -1,0 +1,57 @@
+{
+    "profile": {
+        "rol": "Developer Front End",
+        "description": "I am self-taught, with a strong inclination toward continuous learning and problem-solving, using my skills to develop innovative solutions. <br/>Passionate about new technologies andespecially the CSS and JavaScript ecosystem."
+    },
+
+    "skill": {
+        "first-skill-title": "Front End",
+        "skill-years": "Years of experience",
+        "second-skill-title": "Design",
+        "third-skill-title": "Multimedia",
+        "four-skill-title": "Developer",
+        "five-skill-title": "Operating Systems",
+        "six-skill-title": "Office Automation"
+    },
+
+    "experience": {
+        "title": "Experience",
+        "first-job-dates": "Nov 15 Present",
+        "first-job-title": "Operator",
+        "first-job-description": "I provide level 1 technical support for the telecentre technical area.",
+        "second-job-dates": "Dic 23 Present",
+        "second-job-title": "Front-End Developer",
+        "second-job-description": "Carrying out web development."       
+    },
+
+    "hobbie": {
+        "title": "Hobbie",
+        "first-hobbie-title": "Gym",
+        "first-hobbie-description": "Weight training.",
+        "second-hobbie-title": "Gaming",
+        "second-hobbie-description": "Try new experiences.",       
+        "third-hobbie-title": "Futbol",
+        "third-hobbie-description": "Play with friends.",     
+        "four-hobbie-title": "Drive",
+        "four-hobbie-description": "enjoy the driving experience."     
+    },
+
+    "projects": {
+        "first-project-title": "Portfolio",
+        "first-project-dates": "My personal portfolio was created using HTML, CSS, JavaScript, and responsive technologies.",
+        "first-project-button": "Code",
+        "second-project-title": "Portfolio intermediate",
+        "second-project-dates": "My personal portfolio was created using HTML, CSS, JavaScript, and responsive technologies..",
+        "second-project-button": "Code",
+        "third-project-title": "Portfolio essential",
+        "third-project-dates": "My personal portfolio was created using HTML, CSS, JavaScript, and responsive technologies.",
+        "third-project-button": "Code"
+    },
+
+    "footer": {
+        "footer-title": "About Me",
+        "footer-title2": "Follow Me",
+        "footer-info": "I consider myself a self-taught professional with a curious mindset and a great capacity for self-education, which allows me to quickly adapt to new situations and work environments.",
+        "footer-rights": "©2025 Nicolas Orellana - All rights reserved"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "profile": {
+        "rol": "Desarrollador Front End",
+        "description": "Soy autodidacta, con una fuerte inclinación por el aprendizaje continuo y la resolución de problemas,utilizo mis habilidades paradesarrollar soluciones innovadoras.<br/>Apasionado de las nuevas tecnologias y en especial del ecosistema de css y JavaScript."
+    },
+
+    "skill": {
+        "first-skill-title": "Interfaz",
+        "skill-years": "Años de experiencia",
+        "second-skill-title": "Diseño",
+        "third-skill-title": "Multimedia",
+        "four-skill-title": "Desarrollador",
+        "five-skill-title": "Sistemas Operativos",
+        "six-skill-title": "Ofimatica"
+    },
+
+    "experience": {
+        "title": "Experiencias",
+        "first-job-dates": "Nov 15 Actualidad",
+        "first-job-title": "Operador",
+        "first-job-description": "Brindo soporte tecnico nivel 1 para el area tecnica de telecentro.",
+        "second-job-dates": "Dic 23 Actualidad",
+        "second-job-title": "Desarrollador Front End",
+        "second-job-description": "Realizando desarrollo web."       
+    },
+
+    "hobbie": {
+        "title": "Pasatiempo",
+        "first-hobbie-title": "Gym",
+        "first-hobbie-description": "Entrenamiento con pesas.",
+        "second-hobbie-title": "Gaming",
+        "second-hobbie-description": "Probar nuevas experiencias.",       
+        "third-hobbie-title": "Futbol",
+        "third-hobbie-description": "Jugar con amigos.",     
+        "four-hobbie-title": "Conducir",
+        "four-hobbie-description": "disfrutar de la experiencia de manejar."     
+    },
+
+    "projects": {
+        "first-project-title": "Portafolio",
+        "first-project-dates": "Mi portafolio personal fue realizado con tecnologias html, css, JavaScript, responsive.",
+        "first-project-button": "Codigo",
+        "second-project-title": "Portafolio Intermedio",
+        "second-project-dates": "El portafolio personal fue realizado con tecnologias html, css, JavaScript.",
+        "second-project-button": "Codigo",
+        "third-project-title": "Portafolio Basico",
+        "third-project-dates": "El portafolio personal fue realizado con tecnologias html, css, JavaScript.",
+        "third-project-button": "Codigo"
+    },
+
+    "footer": {
+        "footer-title": "Sobre Mi",
+        "footer-title2": "Seguime",
+        "footer-info": "Me considero un profesional autodidacta con una mentalidad curiosa y una gran capacidad para la autoformación, lo que me permite adaptarmerápidamente a nuevas situaciones y entornos laborales.",
+        "footer-rights": "©2025 Nicolas Orellana - Todos los derechos reservados"
+    }
+}
