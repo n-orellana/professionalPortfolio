@@ -120,8 +120,8 @@ body.dark {
 }
 
 .colors__item{
-    width: 24.5px;
-    height: 24.5px;
+    width: 25px;
+    height: 25px;
     border: 2px solid var(--text-color);
     background-color: var(--primary-color);
     cursor: pointer;
