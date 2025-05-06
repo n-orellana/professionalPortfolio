@@ -21,18 +21,9 @@ langButtons.forEach((button) => {
 
                     el.innerHTML = data[section][value];
                 })
-            })
+            }) 
     })
 })
-/*
-let imgContainer = document.querySelector(".lang_button");
-let img = imgContainer.querySelector("img");
-
-let newImg = document.createElement("img");
-newImg.classList.add("img-blur");
-newImg.src = img.src;
-
-imgContainer.prepend(newImg);*/
 
 toggleTheme.addEventListener("click", ()=> {
     document.body.classList.toggle("dark");

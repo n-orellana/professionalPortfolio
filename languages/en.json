@@ -1,4 +1,9 @@
 {
+    "language": {
+        "modelight": "Dark Mode",
+        "modedark": "Light Mode"
+    },
+    
     "profile": {
         "rol": "Developer Front End",
         "description": "I am self-taught, with a strong inclination toward continuous learning and problem-solving, using my skills to develop innovative solutions. <br/>Passionate about new technologies andespecially the CSS and JavaScript ecosystem."
