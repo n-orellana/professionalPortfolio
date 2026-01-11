@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--iconos-->
+    <script src="https://kit.fontawesome.com/4db3f232fb.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+  </head>
+  <body  class="dark">
+    <!--<script src="js/scripts.js"></script>-->
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div class="languages">
+        <button class="lang_button" id="lang-es"><img src="assets/icons/argentina2.svg" alt="es" class="imgDisign"></button>
+        <button class="lang_button" id="lang-en"><img src="assets/icons/england.svg" alt="en" class="imgDisign"></button>
+      </div>
+
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl( 214,84%, 56%)" class="colors__item colors__item--blue"></div>
+
+        <div data-color="hsl(133, 48%, 35%)" class="colors__item colors__item--green"></div>
+
+        <div data-color="hsl(310, 74%, 34%)" class="colors__item colors__item--purple"></div>
+
+        <div data-color="hsl(0, 100%, 45%)" class="colors__item colors__item--red"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--lett">
+        <!--PROFILE CARD-->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/profile2.png" alt="Imagen con efecto" class="profile_image">
+          </div>
+          <div class="class__header">
+            <h2 class="class_title no-margin">Nicolas Orellana</h2>
+            <p class="card__subtitle" data-section="profile" data-value="rol" ></p>
+          </div>
+          <div class="class card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:nicolas.orellana.index@gmail.com">nicolas.orellana.index@gmail.com</a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:1123227272">1123227272</a>
+            </div>  
+            <p class="card__text" data-section="profile" data-value="description">
+              Soy autodidacta, con una fuerte inclinación por 
+              el aprendizaje continuo y la resolución de problemas,
+              utilizo mis habilidades para
+              desarrollar soluciones innovadoras.<br/>
+              Apasionado de las nuevas tecnologias y 
+              en especial del ecosistema de css y
+              JavaScript.
+            </p>
+          </div>
+          <div class="red-social2">
+            <a href="https://github.com/n-orellana" target="_blank" class="fa fa-github"></a>
+            <a href="https://www.instagram.com/nikkol4s" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://x.com/nikol4s" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/nicolas-orellana-index/" target="_blank" class="fa fa-linkedin"></a>
+          </div>
+
+        </article>
+        <article class="card card--experience">
+          <h2 class="card_title" data-section="experience" data-value="title" >Experiencias</h2>
+          <div class="experience">
+            <img src="assets/icons/work.svg" alt="logo" class="experience__image toggle-hobbie__icon"></img>
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="first-job-dates">
+                Nov 2015 - Actualidad
+              </p>
+              <h3 class="experience__job" data-section="experience" data-value="first-job-title" >Operador</h3>
+              <p class="experience__description" data-section="experience" data-value="first-job-description">Brindo soporte tecnico nivel 1 para el area tecnica de telecentro.</p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/icons/work.svg" alt="logo" class="experience__image toggle-hobbie__icon"></img>
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="second-job-dates">
+                Nov 2023 - Actualidad
+              </p>
+              <h3 class="experience__job" data-section="experience" data-value="second-job-title">Front End</h3>
+              <p class="experience__description" data-section="experience" data-value="second-job-description">Realizando desarrollo web. </p>
+            </div>
+          </div>
+        </article>
+        <article class="card card-hobbies">
+          <h2 class="card_title" data-section="hobbie" data-value="title" >Pasatiempos</h2>
+          <div class="hobbie">
+            <img src="assets/icons/pesas.svg" alt="Deporte" class="hobbie__image toggle-hobbie__icon"></img>
+            <div class="hobbie__info">
+              <p class="hobbie__time">
+                
+              </p>
+              <h3 class="hobbie__name" data-section="hobbie" data-value="first-hobbie-title">Gym</h3>
+              <p class="hobbie__description"data-section="hobbie" data-value="first-hobbie-description">Entrenamiento con pesas</p>
+            </div>
+          </div>
+          <div class="hobbie">
+            <img src="assets/icons/joystick.svg" alt="Deporte" class="hobbie__image toggle-hobbie__icon"></img>
+            <div class="hobbie__info">
+              <p class="hobbie__time">
+                
+              </p>
+              <h3 class="hobbie__name" data-section="hobbie" data-value="second-hobbie-title">Gaming</h3>
+              <p class="hobbie__description" data-section="hobbie" data-value="second-hobbie-description">Probar nuevas experiencias</p>
+            </div>
+          </div>
+          <div class="hobbie">
+            <img src="assets/icons/futbol.svg" alt="Deporte" class="hobbie__image toggle-hobbie__icon"></img>
+            <div class="hobbie__info">
+              <p class="hobbie__time">
+                
+              </p>
+              <h3 class="hobbie__name" data-section="hobbie" data-value="third-hobbie-title">Futbol</h3>
+              <p class="hobbie__description" data-section="hobbie" data-value="third-hobbie-description">Jugar con amigos</p>
+            </div>
+          </div>
+          <div class="hobbie">
+            <img src="assets/icons/conducir.svg" alt="Deporte" class="hobbie__image toggle-hobbie__icon"></img>
+            <div class="hobbie__info">
+              <p class="hobbie__time">
+                
+              </p>
+              <h3 class="hobbie__name" data-section="hobbie" data-value="four-hobbie-title">Conducir</h3>
+              <p class="hobbie__description" data-section="hobbie" data-value="four-hobbie-description">Disfrutar de la experiencia de manejar</p>
+            </div>
+          </div>
+        </article> 
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title" data-section="skill" data-value="first-skill-title">Front End</h2>
+          <small data-section="skill" data-value="skill-years">Años de experiencia</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">3</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">React</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title" data-section="skill" data-value="second-skill-title">Diseño</h2>
+          <small data-section="skill" data-value="skill-years">Años de experiencia</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">3</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Photoshop</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Ilustrator</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Corel Draw</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title" data-section="skill" data-value="third-skill-title">Multimedia</h2>
+          <small data-section="skill" data-value="skill-years">Años de experiencia</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">3</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">After Effects</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Premiere</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Filmora</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title" data-section="skill" data-value="four-skill-title">Back End</h2>
+          <small data-section="skill" data-value="skill-years">Años de experiencia</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">3</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">C++</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">C</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Maria DB</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">MySQL</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Python</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">PHP</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title" data-section="skill" data-value="five-skill-title">Sistemas Operativos</h2>
+          <small data-section="skill" data-value="skill-years">Años de experiencia</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">15</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Linux</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Windows</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Mac os</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Android</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title" data-section="skill" data-value="six-skill-title">Heramientas Ofimaticas</h2>
+          <small data-section="skill" data-value="skill-years">Años de experiencia</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">15</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Office</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Libre office</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Google Workspace</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CRM</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>            
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/icons/code.svg" alt="Landing page" class="card__image toggle-hobbie__icon">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title" data-section="projects" data-value="first-project-title">Portafolio Personal - Nicolas Orellana ¡Bienvenido a mi portafolio profesional! </h2>
+            <p class="card__text" data-section="projects" data-value="first-project-dates">
+              💻 Portafolio Personal - Nicolas Orellana ¡Bienvenido a mi portafolio profesional! Este proyecto es una Single Page Application (SPA) estática, diseñada para mostrar mi trayectoria como desarrollador, mis habilidades técnicas y los proyectos más destacados que he realizado.<br/><br/>
+
+              🚀 Características Principales Diseño Responsivo: Adaptado completamente para dispositivos móviles, tablets y escritorio.<br/><br/>
+
+              Modo Oscuro/Claro: Selector de tema dinámico para mejorar la experiencia de usuario.
+
+              Personalización de Colores: Sistema de cambio de acento de color (Azul, Verde, Púrpura, Rojo) mediante variables CSS.
+
+              Soporte Multi-lenguaje: Preparado para soporte bilingüe (Español/Inglés).
+
+              Secciones Detalladas:
+
+              Perfil: Información de contacto y redes sociales.
+
+              Experiencia: Historial laboral en soporte técnico y desarrollo.
+
+              Habilidades (Skills): Barras de progreso categorizadas por Front-end, Back-end, Diseño, Multimedia y más.
+
+              Proyectos: Galería de trabajos con descripción, etiquetas de tecnologías y enlaces a demos/código.<br/><br/>
+
+              🛠️ Tecnologías Utilizadas HTML5: Estructura semántica para SEO y accesibilidad.<br/><br/>
+
+              CSS3: Diseño personalizado utilizando metodologías modernas y variables para los temas.<br/>
+
+              JavaScript (Vanilla): Lógica para el cambio de temas, colores y manejo de idiomas.<br/>
+
+              Font Awesome: Iconografía profesional para una interfaz intuitiva..</p>
+                          <div class="buttons">
+              <a href="https://n-orellana.github.io/professionalPortfolioV1.0/" target="_blank" class="button button--primary">Demo</a>
+              <a href="https://github.com/n-orellana/professionalPortfolioV1.0" target="_blank" class="button button--ghost" data-section="projects" data-value="first-project-button">Codigo</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/icons/code.svg" alt="Landing page" class="card__image toggle-hobbie__icon">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML5</span>
+              <span class="project__tag">#Tailwind CSS</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title" data-section="projects" data-value="second-project-title">Clases Dev </> | Landing Page de Cursos de Programación</h2>
+            <p class="card__text" data-section="projects" data-value="second-project-dates">
+              Clases Dev </> | Landing Page de Cursos de Programación Esta es una landing page moderna, responsiva y funcional diseñada para promocionar clases particulares de programación online. El proyecto incluye un sistema de captura de clientes (leads) y un panel de administración oculto para gestionar las solicitudes.<br/>
+              🚀 Características Diseño Moderno: Interfaz limpia construida con Tailwind CSS.<br/>
+              Modo Oscuro/Claro: Soporte nativo para cambio de tema (Dark Mode).
+
+              Totalmente Responsiva: Adaptada para móviles, tablets y escritorio.
+
+              Gestión de Leads: Formulario de contacto que valida y guarda datos en el localStorage del navegador.
+
+              Panel Administrativo: Sección protegida por contraseña para visualizar los alumnos interesados.
+
+              Sin Dependencias de Servidor: Funciona completamente en el lado del cliente (Client-side).<br/>
+
+              🛠️ Tecnologías Utilizadas HTML5: Estructura semántica.
+
+              Tailwind CSS: Estilizado mediante CDN con configuración personalizada.
+
+              JavaScript (Vanilla): Lógica para el manejo de temas, almacenamiento de datos y panel admin.
+
+              Font Awesome: Iconografía profesional.
+
+              Picsum Photos: Placeholders para imágenes dinámicas.<br/>
+
+              📂 Estructura del Proyecto El proyecto consta de un único archivo principal:<br/>
+
+              clasesOnline.html: Contiene la estructura HTML, los estilos de Tailwind y la lógica de JavaScript.<br/>
+
+              🔑 Acceso Administrativo El sitio cuenta con un panel oculto para que el profesor pueda ver quiénes se han inscrito.<br/>
+
+              Dirígete al Footer (pie de página).<br/>
+
+              Haz clic en el enlace pequeño que dice "Acceso Admin".<br/>
+
+              Ingresa las siguientes credenciales:<br/>
+
+              Usuario: cross Contraseña: dev2026<br/>
+
+              Nota: Los datos se guardan localmente en tu navegador. Si limpias el historial/caché o cambias de navegador, los registros actuales no aparecerán a menos que se implemente una base de datos real.<br/>
+
+              © 2026 Clases Dev. Creado para potenciar carreras tecnológicas. <br/></p>
+            <div class="buttons">
+              <a href="https://github.com/n-orellana/clasesOnline" target="_blank" class="button button--primary">Demo</a>
+              <a href="https://github.com/n-orellana/clasesOnline" target="_blank" class="button button--ghost" data-section="projects" data-value="second-project-button">Codigo</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/icons/code.svg" alt="Landing page" class="card__image toggle-hobbie__icon">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#Tailwind CSS</span>
+              <span class="project__tag">#Responsive</span>
+               <span class="project__tag">#JavaScript</span>
+            </div>
+            <h2 class="card__title" data-section="projects" data-value="third-project-title">Estudio Nómada - Diseño de Interiores Premium</h2>
+            <p class="card__text" data-section="projects" data-value="third-project-dates">Estudio Nómada es una landing page elegante y moderna diseñada para un estudio de interiorismo de alta gama. El proyecto se centra en el "diseño consciente", combinando una estética minimalista con funcionalidades interactivas avanzadas.<br/>
+
+              🚀 Características Diseño Responsive: Optimizado para dispositivos móviles, tablets y escritorio.<br/>
+
+              Modo Oscuro (Dark Mode): Incluye un conmutador de modo claro/oscuro con persistencia en localStorage.
+
+              Interfaz de Usuario Premium: Uso de tipografías refinadas (Cormorant Garamond e Inter) y una paleta de colores sofisticada.
+
+              Componentes Interactivos:
+
+              Menú móvil desplegable.
+
+              Efectos de hover dinámicos (escala y paso de escala de grises a color).
+
+              Navegación pegajosa (sticky header).
+
+              Optimización SEO: Metadatos configurados y estructura semántica de HTML5.
+
+              🛠️ Tecnologías Utilizadas HTML5: Estructura semántica.<br/>
+
+              Tailwind CSS (v3): Framework de utilidades para el diseño rápido y personalizado.
+
+              JavaScript (Vanilla): Lógica para el modo oscuro, menú móvil y persistencia de datos.
+
+              Font Awesome 6: Iconografía detallada.
+
+              Google Fonts: Tipografías personalizadas para un aspecto editorial.
+            
+              © 2026 Estudio Nomada.<br/>
+            </p>
+            <div class="buttons">
+              <a href="https://github.com/n-orellana/estudionomada" target="_blank" class="button button--primary">Demo</a>
+              <a href="https://github.com/n-orellana/estudionomada" target="_blank" class="button button--ghost" data-section="projects" data-value="third-project-button">Codigo</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/icons/code.svg" alt="Landing page" class="card__image toggle-hobbie__icon">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#PHP</span>
+            <span class="project__tag">#MySQL/MariaDB</span>
+            <span class="project__tag">#Responsive</span>
+              <span class="project__tag">#API Key de Google Gemini</span>
+          </div>
+          <h2 class="card__title" data-section="projects" data-value="four-project-title">Cotizador Automático de Proyectos</h2>
+          <p class="card__text" data-section="projects" data-value="four-project-dates">
+            
+            Sistema web automatizado para la generación de cotizaciones de proyectos de software, impulsado por Inteligencia Artificial (Google Gemini).<br/>
+
+            📋 Descripción<br/>
+            Este proyecto es una aplicación web que permite a los usuarios solicitar cotizaciones estimadas para diferentes tipos de proyectos (Sitios web, Ecommerce, Apps, etc.). Mediante un formulario interactivo, el sistema recopila los requerimientos del cliente y utiliza la API de Google Gemini para analizar los datos y generar una cotización preliminar detallada, incluyendo precio sugerido, tiempo estimado y entregables.
+
+            Además, cuenta con un panel de administración seguro para gestionar las solicitudes recibidas.
+
+            <br/>✨ Características<br/>
+            Cotización con IA: Integración con Google Gemini para análisis y estimación de costos en tiempo real.
+            Interfaz Moderna: Diseño responsivo y atractivo utilizando TailwindCSS.
+            Panel de Administración:
+            Dashboard con métricas clave.
+            Listado de cotizaciones con filtros.
+            Detalle completo de cada solicitud.
+            Gestión de estados (Nueva, Vista, etc.).
+            Seguridad: Autenticación de usuarios administradores y protección de rutas.
+            <br/>🛠️ Requisitos Previos<br/>
+            Servidor Web (Apache/Nginx) - Se recomienda XAMPP/WAMP para desarrollo local.<br/>
+            PHP 7.4 o superior.<br/>
+            MySQL / MariaDB.<br/>
+            Una API Key de Google Gemini.<br/>
+          </p>
+          <div class="buttons">
+            <a href="https://github.com/n-orellana/estudionomada" target="_blank" class="button button--primary">Demo</a>
+            <a href="https://github.com/n-orellana/estudionomada" target="_blank" class="button button--ghost" data-section="projects" data-value="four-project-button">Codigo</a>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/icons/code.svg" alt="Landing page" class="card__image toggle-hobbie__icon">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML5</span>
+            <span class="project__tag">#Tailwind CSS</span>
+            <span class="project__tag">#Responsive</span>
+            <span class="project__tag">#JavaScript</span>
+          </div>
+          <h2 class="card__title" data-section="projects" data-value="five-project-title">⚪🔴 El Más Grande - Tienda Oficial Este es un proyecto de E-commerce Landing Page</h2>
+          <p class="card__text" data-section="projects" data-value="five-project-dates">
+            ⚪🔴 El Más Grande - Tienda Oficial Este es un proyecto de E-commerce Landing Page diseñado para la venta de indumentaria deportiva. El sitio cuenta con una interfaz moderna, sistema de pedidos dinámico y un panel de administración integrado para la gestión de solicitudes.<br/><br/>
+
+            🚀 Características Diseño 100% Responsive: Optimizado para múltiples resoluciones, incluyendo dispositivos móviles específicos (probado en 360x775px).<br/><br/>
+
+            Estilo Moderno: Construido con Tailwind CSS y Google Fonts (Montserrat).
+
+            Sistema de Pedidos: Formulario funcional que captura los datos del cliente y los almacena en memoria (o base de datos SQLite).
+
+            Panel de Administración: Acceso restringido para ver las solicitudes de envío en tiempo real.
+
+            Mobile-First: Estructura de código pensada primero para la eficiencia en dispositivos móviles.<br/><br/>
+
+            🛠️ Tecnologías Utilizadas Frontend: HTML5, CSS3, Tailwind CSS, JavaScript (Vanilla).<br/>
+
+            Iconos: Font Awesome 6.0.
+
+            Backend (Propuesto): PHP 8.x para la lógica de servidor.
+
+            Base de Datos: SQLite para un almacenamiento ligero y portable.
+          </p>
+          <div class="buttons">
+            <a href="https://github.com/n-orellana/tiendaRiver" target="_blank" class="button button--primary">Demo</a>
+            <a href="https://github.com/n-orellana/tiendaRiver" target="_blank" class="button button--ghost" data-section="projects" data-value="five-project-button">Codigo</a>
+          </div>
+        </div>
+      </article>
+      </section>
+    </main>
+    <footer class="card footer">
+      <div class="group1">
+        <div class="box">
+          <figure>
+            <a href="#">
+              <img src="assets/icons/terminal.svg" alt="logos" class="toggle-footer__icon">
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2 data-section="footer" data-value="footer-title">Sobre Mi</h2>
+          <p data-section="footer" data-value="footer-info">Me considero un profesional autodidacta con una mentalidad curiosa y<br/> una gran capacidad para la autoformación, lo que me permite adaptarme<br/> rápidamente a nuevas situaciones y entornos laborales bajo presion.</p>
+        </div>
+        <div class="box">
+          <h2 data-section="footer" data-value="footer-title2">Seguime</h2>
+          <div class="red-social">
+            <a href="https://github.com/n-orellana" target="_blank" class="fa fa-github"></a>
+            <a href="https://www.facebook.com/nicolas.orellana.pr" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/nikkol4s" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://x.com/nikol4s" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/nicolas-orellana-index/" target="_blank" class="fa fa-linkedin"></a>
+          </div>
+
+        </div>
+      </div>
+      <div class="group2">
+        <small data-section="footer" data-value="footer-rights">&copy;2025 <b>Nicolas Orellana</b> - Todos los derechos reservados</small>
+      </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
