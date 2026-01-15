@@ -2,7 +2,7 @@
     "es": {
         "profile": {
             "rol": "Desarrollador Front End",
-            "description": "Soy autodidacta, con una fuerte inclinación por el aprendizaje continuo y la resolución de problemas,utilizo mis habilidades paradesarrollar soluciones innovadoras.  Apasionado de las nuevas tecnologias y en especial del ecosistema de css y JavaScript."
+            "description": "Hola, soy Nicolas orellana. Construyo soluciones y soluciono problemas. <br> Soy Desarrollador Front-end con un sólido trasfondo en Soporte Técnico L1. Mi día a día se divide en dos pasiones: escribir código limpio y eficiente para crear interfaces increíbles, y diagnosticar problemas técnicos para que todo funcione como debe.  <br> Mi experiencia en soporte me enseñó algo vital para el desarrollo: la empatía con el usuario. No solo busco que una web se vea bien, sino que sea funcional, accesible y libre de errores. Si hay un bug, lo encuentro; si hay una idea, la programo."
         },
 
         "skill": {
@@ -58,14 +58,14 @@
         "footer": {
             "footer-title": "Sobre Mi",
             "footer-title2": "Seguime",
-            "footer-info": "Me considero un profesional autodidacta con una mentalidad curiosa  y una gran capacidad para la autoformación,  lo que me permite adaptarme rápidamente a nuevas situaciones y entornos laborales bajo presion.",
+            "footer-info": "¡Hola! Soy Nicolas Orellana. Construyo soluciones y resuelvo problemas. Como Desarrollador Front-end con experiencia en Soporte L1, divido mi tiempo entre dos pasiones: escribir código eficiente para crear interfaces increíbles y diagnosticar fallos técnicos para asegurar que todo funcione a la perfección.El soporte me enseñó que la empatía con el usuario es la clave de un buen desarrollo. No solo me preocupa la estética de un sitio; busco que sea funcional, accesible y libre de errores. Si algo falla, lo arreglo; si es una idea, la programo.",
             "footer-rights": "©2025 Nicolas Orellana - Todos los derechos reservados"
         }
     },
     "en": {   
         "profile": {
             "rol": "Developer Front End",
-            "description": "I am self-taught, with a strong inclination toward continuous learning and problem-solving, using my skills to develop innovative solutions. Passionate about new technologies andespecially the CSS and JavaScript ecosystem."
+            "description": "Hi, I’m Nicolas Orellana. I build solutions and solve problems. I am a Front-end Developer with a solid background in L1 Technical Support. My daily life is driven by two passions: writing clean, efficient code to create stunning interfaces, and diagnosing technical issues to ensure everything runs smoothly. My support experience taught me a vital lesson for development: user empathy. I don’t just aim for a website that looks good; I ensure it is functional, accessible, and bug-free. If there’s a bug, I’ll find it; if there’s an idea, I’ll code it"
         },
 
         "skill": {
@@ -121,7 +121,7 @@
         "footer": {
             "footer-title": "About Me",
             "footer-title2": "Follow Me",
-            "footer-info": "I consider myself a self-taught professional with a curious mindset and a great capacity for self-education, which allows me to quickly adapt to new situations and work environments under pressure.",
+            "footer-info": "Hi there! I'm Nicolas Orellana. I build solutions and fix problems. As a Front-end Developer with a background in L1 Support, I split my time between two passions: writing efficient code for great interfaces and diagnosing tech issues to make sure everything works perfectly. Support taught me that user empathy is key to good development. I don't just care about how a site looks; I want it to be functional, accessible, and error-free. If it’s broken, I’ll fix it; if it’s an idea, I’ll code it",
             "footer-rights": "©2025 Nicolas Orellana - All rights reserved"
         }
     }
