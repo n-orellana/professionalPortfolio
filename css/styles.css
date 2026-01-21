@@ -238,11 +238,12 @@ body.dark {
     transition: var(--transition);
 }
 
+/*
 .card__text, 
 .experience__description, 
 .hobbie__description {
     white-space: pre-line;
-}
+}*/
 
 @media screen and (min-width: 720px){
     .card--project{

@@ -67,7 +67,9 @@
     "en": {   
         "profile": {
             "rol": "Developer Front End",
-            "description1": "Hi, I’m Nicolas Orellana. I build solutions and solve problems. I am a Front-end Developer with a solid background in L1 Technical Support. My daily life is driven by two passions: writing clean, efficient code to create stunning interfaces, and diagnosing technical issues to ensure everything runs smoothly. My support experience taught me a vital lesson for development: user empathy. I don’t just aim for a website that looks good; I ensure it is functional, accessible, and bug-free. If there’s a bug, I’ll find it; if there’s an idea, I’ll code it"
+            "description1": "Hi, I'm Nicolas Orellana. I build solutions and solve problems.",
+            "description2": "I’m a Front-end Developer with a solid background in L1 Technical Support. My day-to-day is driven by two passions: writing clean, efficient code to build amazing interfaces, and diagnosing technical issues to ensure everything runs smoothly.",
+            "description3": "My experience in support taught me something vital for development: user empathy. I don’t just want a website to look good; I want it to be functional, accessible, and bug-free. If there’s a bug, I’ll find it; if there’s an idea, I’ll code it."
         },
 
         "skill": {
